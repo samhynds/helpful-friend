@@ -1,0 +1,22 @@
+{
+  "name": "helpful-friend",
+  "version": "2.0.0",
+  "description": "It's a discord bot!",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js",
+    "debug": "nodemon --inspect --debug-brk app.js"
+  },
+  "author": "Sam Hynds",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.1.2",
+    "discord-player": "^4.0.5",
+    "discord.js": "^12.5.3",
+    "moment": "^2.19.1",
+    "node-opus": "^0.3.3",
+    "ytdl-core": "^2.1.7",
+    "ytdl-core-discord": "^1.3.0"
+  }
+}
